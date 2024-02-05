@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 62.5%;
+}
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-rows: 3fr 8fr;
+  background-color: black;
+}
+.main-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background-color: aqua;
+}
+.container {
+  width: 30rem;
+  height: 30rem;
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+}
+.box{
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+}
