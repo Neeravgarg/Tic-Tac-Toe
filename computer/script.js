@@ -1,1 +1,2 @@
-let 
+"use strict";
+let version = "1.0.1";
